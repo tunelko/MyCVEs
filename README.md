@@ -20,6 +20,7 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
 |-----|--------------|-----|------|----------|------|
 | CVE-2026-33400 | Stored XSS via payment method rename | CWE-79 | 5.4 | MEDIUM | [GHSA-p6v5-227f-f3fv](https://github.com/ellite/Wallos/security/advisories/GHSA-p6v5-227f-f3fv) |
 | CVE-2026-33399 | SSRF bypass of CVE-2026-30839/30840 fix | CWE-918 | 7.7 | HIGH | [GHSA-mfjc-3258-cq3j](https://github.com/ellite/Wallos/security/advisories/GHSA-mfjc-3258-cq3j) |
+| CVE-2026-33417 | Password reset tokens never expire | CWE-640 | 6.5 | MEDIUM | [GHSA-p3fv-m43r-3fhf](https://github.com/ellite/Wallos/security/advisories/GHSA-p3fv-m43r-3fhf) |
 
 ## Solidtime v0.11.5
 
