@@ -1,12 +1,8 @@
 # My CVEs
 
-Security vulnerabilities discovered by **Pedro J. Núñez-Cacho Fuentes** — independent security researcher.
-
-Blog: [blogs.Pedro J. Núñez-Cacho Fuentes.com](https://blogs.Pedro J. Núñez-Cacho Fuentes.com/cve-list/)
+Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https://blogs.tunelko.com/cve-list/)
 
 ## LiveHelperChat v4.81 (INCIBE-CNA)
-
-Published: 2026-03-20 | Patched: v4.82 | Coordinated via [INCIBE](https://www.incibe.es/incibe-cert/alerta-temprana/avisos/multiples-vulnerabilidades-en-livehelperchat)
 
 | CVE | Vulnerability | CWE | CVSS v4.0 | Severity |
 |-----|--------------|-----|-----------|----------|
