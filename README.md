@@ -15,7 +15,7 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
 | [CVE-2026-4386](LiveHelperChat/CVE-2026-4386/) | IDOR chat metadata leak | CWE-862 | 5.3 | MEDIUM |
 
 ## Pandora FMS Community v7.0NG.777 (Pandora FMS CNA / INCIBE)
-
+ 
 | CVE | Vulnerability | CWE | CVSS v4.0 | Severity |
 |-----|--------------|-----|-----------|----------|
 | [CVE-2026-30804](PandoraFMS/CVE-2026-30804/) | RCE via Extension Upload | CWE-434 | 8.6 | HIGH |
@@ -42,6 +42,8 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
 | [CVE-2026-33345](Solidtime/CVE-2026-33345/) | IDOR on private projects | CWE-639 | 6.5 | MEDIUM | [GHSA-354j-rx28-jjxm](https://github.com/solidtime-io/solidtime/security/advisories/GHSA-354j-rx28-jjxm) |
 
 **Stats:** 19 CVEs across 4 products — 1 CRITICAL + 12 HIGH + 5 MEDIUM + 1 LOW
+
+**List updated:** This repo will be updated frequently 
 
 ## Disclaimer
 
