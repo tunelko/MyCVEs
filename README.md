@@ -1,6 +1,6 @@
 # My CVEs
 
-Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https://blogs.tunelko.com/cve-list/)
+Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https://blogs.tunelko.com/my-cve-list/)
 
 ## LiveHelperChat v4.81 (INCIBE-CNA)
 
