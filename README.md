@@ -18,27 +18,27 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
  
 | CVE | Vulnerability | CWE | CVSS v4.0 | Severity |
 |-----|--------------|-----|-----------|----------|
-| [CVE-2026-30804](PandoraFMS/CVE-2026-30804/) | RCE via Extension Upload | CWE-434 | 8.6 | HIGH |
-| [CVE-2026-30806](PandoraFMS/CVE-2026-30806/) | OS Command Injection in Whois (Network Report) | CWE-78 | 8.7 | HIGH |
-| [CVE-2026-30809](PandoraFMS/CVE-2026-30809/) | OS Command Injection in WebServerModuleDebug | CWE-78 | 8.7 | HIGH |
-| [CVE-2026-30811](PandoraFMS/CVE-2026-30811/) | Missing Authorization in config endpoint | CWE-862 | 8.4 | HIGH |
-| [CVE-2026-30812](PandoraFMS/CVE-2026-30812/) | Stored XSS in Event Comments | CWE-79 | 2.1 | LOW |
-| [CVE-2026-30813](PandoraFMS/CVE-2026-30813/) | SQL Injection in Module Search | CWE-89 | 8.7 | HIGH |
-| [CVE-2026-34186](PandoraFMS/CVE-2026-34186/) | SQL Injection in Custom Fields | CWE-89 | 8.7 | HIGH |
-| [CVE-2026-34188](PandoraFMS/CVE-2026-34188/) | OS Command Injection in Event Response | CWE-78 | 7.5 | HIGH |
-| [CVE-2026-30805](PandoraFMS/CVE-2026-30805/) | SSRF via API Checker (IP ACL bypass) | CWE-918 | 8.7 | HIGH |
 | [CVE-2026-30807](PandoraFMS/CVE-2026-30807/) | API v2 Server Identifier Token Authentication Bypass | CWE-287 | 9.3 | CRITICAL |
 | [CVE-2026-30808](PandoraFMS/CVE-2026-30808/) | API Authentication Bypass via Insecure Default | CWE-1188 | 9.3 | CRITICAL |
+| [CVE-2026-30805](PandoraFMS/CVE-2026-30805/) | SSRF via API Checker (IP ACL bypass) | CWE-918 | 8.7 | HIGH |
+| [CVE-2026-30806](PandoraFMS/CVE-2026-30806/) | OS Command Injection in Whois (Network Report) | CWE-78 | 8.7 | HIGH |
+| [CVE-2026-30809](PandoraFMS/CVE-2026-30809/) | OS Command Injection in WebServerModuleDebug | CWE-78 | 8.7 | HIGH |
+| [CVE-2026-30813](PandoraFMS/CVE-2026-30813/) | SQL Injection in Module Search | CWE-89 | 8.7 | HIGH |
+| [CVE-2026-34186](PandoraFMS/CVE-2026-34186/) | SQL Injection in Custom Fields | CWE-89 | 8.7 | HIGH |
+| [CVE-2026-30804](PandoraFMS/CVE-2026-30804/) | RCE via Extension Upload | CWE-434 | 8.6 | HIGH |
+| [CVE-2026-30811](PandoraFMS/CVE-2026-30811/) | Missing Authorization in config endpoint | CWE-862 | 8.4 | HIGH |
+| [CVE-2026-34188](PandoraFMS/CVE-2026-34188/) | OS Command Injection in Event Response | CWE-78 | 7.5 | HIGH |
 | [CVE-2026-30810](PandoraFMS/CVE-2026-30810/) | Session Fixation (no `session_regenerate_id`) | CWE-384 | 7.3 | HIGH |
 | [CVE-2026-34187](PandoraFMS/CVE-2026-34187/) | CSRF on Extension Pages | CWE-352 | 6.9 | MEDIUM |
+| [CVE-2026-30812](PandoraFMS/CVE-2026-30812/) | Stored XSS in Event Comments | CWE-79 | 2.1 | LOW |
 
 ## Wallos v4.6.2
 
 | CVE | Vulnerability | CWE | CVSS | Severity | GHSA |
 |-----|--------------|-----|------|----------|------|
 | [CVE-2026-33399](Wallos/CVE-2026-33399/) | SSRF bypass of CVE-2026-30839/30840 fix | CWE-918 | 7.7 | HIGH | [GHSA-mfjc-3258-cq3j](https://github.com/ellite/Wallos/security/advisories/GHSA-mfjc-3258-cq3j) |
-| [CVE-2026-33400](Wallos/CVE-2026-33400/) | Stored XSS via payment method rename | CWE-79 | 5.4 | MEDIUM | [GHSA-p6v5-227f-f3fv](https://github.com/ellite/Wallos/security/advisories/GHSA-p6v5-227f-f3fv) |
 | [CVE-2026-33417](Wallos/CVE-2026-33417/) | Password reset tokens never expire | CWE-640 | 6.5 | MEDIUM | [GHSA-p3fv-m43r-3fhf](https://github.com/ellite/Wallos/security/advisories/GHSA-p3fv-m43r-3fhf) |
+| [CVE-2026-33400](Wallos/CVE-2026-33400/) | Stored XSS via payment method rename | CWE-79 | 5.4 | MEDIUM | [GHSA-p6v5-227f-f3fv](https://github.com/ellite/Wallos/security/advisories/GHSA-p6v5-227f-f3fv) |
 
 ## Solidtime v0.11.5
 
