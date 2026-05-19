@@ -26,6 +26,11 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
 | [CVE-2026-30813](PandoraFMS/CVE-2026-30813/) | SQL Injection in Module Search | CWE-89 | 8.7 | HIGH |
 | [CVE-2026-34186](PandoraFMS/CVE-2026-34186/) | SQL Injection in Custom Fields | CWE-89 | 8.7 | HIGH |
 | [CVE-2026-34188](PandoraFMS/CVE-2026-34188/) | OS Command Injection in Event Response | CWE-78 | 7.5 | HIGH |
+| [CVE-2026-30805](PandoraFMS/CVE-2026-30805/) | SSRF via API Checker (IP ACL bypass) | CWE-918 | 8.7 | HIGH |
+| [CVE-2026-30807](PandoraFMS/CVE-2026-30807/) | API v2 Server Identifier Token Authentication Bypass | CWE-287 | 9.3 | CRITICAL |
+| [CVE-2026-30808](PandoraFMS/CVE-2026-30808/) | API Authentication Bypass via Insecure Default | CWE-1188 | 9.3 | CRITICAL |
+| [CVE-2026-30810](PandoraFMS/CVE-2026-30810/) | Session Fixation (no `session_regenerate_id`) | CWE-384 | 7.3 | HIGH |
+| [CVE-2026-34187](PandoraFMS/CVE-2026-34187/) | CSRF on Extension Pages | CWE-352 | 6.9 | MEDIUM |
 
 ## Wallos v4.6.2
 
@@ -41,7 +46,7 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
 |-----|--------------|-----|------|----------|------|
 | [CVE-2026-33345](Solidtime/CVE-2026-33345/) | IDOR on private projects | CWE-639 | 6.5 | MEDIUM | [GHSA-354j-rx28-jjxm](https://github.com/solidtime-io/solidtime/security/advisories/GHSA-354j-rx28-jjxm) |
 
-**Stats:** 19 CVEs across 4 products — 1 CRITICAL + 12 HIGH + 5 MEDIUM + 1 LOW
+**Stats:** 24 CVEs across 4 products: 3 CRITICAL + 14 HIGH + 6 MEDIUM + 1 LOW
 
 **List updated:** This repo will be updated frequently 
 
