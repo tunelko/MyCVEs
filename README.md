@@ -46,6 +46,12 @@ Check all CVEs with working PoCs on the blog: [blogs.tunelko.com/cve-list](https
 |-----|--------------|-----|------|----------|------|
 | [CVE-2026-33345](Solidtime/CVE-2026-33345/) | IDOR on private projects | CWE-639 | 6.5 | MEDIUM | [GHSA-354j-rx28-jjxm](https://github.com/solidtime-io/solidtime/security/advisories/GHSA-354j-rx28-jjxm) |
 
+## SuiteCRM v7.15.1
+
+| CVE | Vulnerability | CWE | CVSS 3.1 | Severity |
+|-----|--------------|-----|----------|----------|
+| [CVE-2026-63111](SuiteCRM/CVE-2026-63111/) | Broken access control: non-admin user creates a SchedulersJob leading to SSRF via cron | CWE-862 | 8.5 | HIGH |
+
 ## MobaXterm Personal Edition Portable (Mobatek / INCIBE-CNA)
 
 | CVE | Vulnerability | CWE | CVSS v4.0 | Severity |
